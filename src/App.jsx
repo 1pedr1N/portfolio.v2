@@ -1,7 +1,14 @@
+import React from "react";
+import SideBar from "./components/Sidebar";
+import MainContent from "./components/MainContent";
+import "./styles/components/app.sass";
+
 const App = () => {
   return (
-    <div className="App">
-      <h1>React +_ SASS</h1>
+    <div id="main">
+      <h1>Pedro Morais</h1>
+      <SideBar />
+      <MainContent />
     </div>
   );
 };
