@@ -1,9 +1,14 @@
 import "../styles/components/maincontent.sass";
+import AboutContainer from "./AboutContainer";
+import Projects from "./Projects";
+import Technologies from "./Technologies";
 
 const MainContent = () => {
   return (
     <main id="main-content">
-      <h1>main</h1>
+      <AboutContainer />
+      <Technologies />
+      <Projects />
     </main>
   );
 };
